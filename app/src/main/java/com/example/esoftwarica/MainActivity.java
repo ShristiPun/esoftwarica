@@ -2,6 +2,9 @@ package com.example.esoftwarica;
 
 import android.os.Bundle;
 
+import com.example.esoftwarica.ui.dashboard.DashboardFragment;
+import com.example.esoftwarica.ui.dashboard.student;
+import com.example.esoftwarica.ui.home.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
