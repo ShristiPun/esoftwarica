@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
 
         NavigationUI.setupWithNavController(navView, navController);
+        DashboardFragment.students.add(new student("22","Sita Thapa","Butwal","Female"));
+        DashboardFragment.students.add(new student("23","Ram Thapa","Pokhara","Male"));
+        DashboardFragment.students.add(new student("22","Chris Newman","New Road","Others"));
+
     }
 
 }

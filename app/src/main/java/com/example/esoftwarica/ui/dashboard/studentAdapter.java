@@ -40,7 +40,17 @@ public class studentAdapter extends RecyclerView.Adapter<studentAdapter.myHolder
         holder.age.setText(student.getAge());
         holder.address.setText(student.getAddress());
         holder.gender.setText(student.getGender());
-        holder.image.setImageResource(R.drawable.ema);
+        String gen= student.getGender();
+        if (gen.equals("Male")){
+            holder.image.setImageResource(R.drawable.male);
+        }
+        else if (gen.equals("Female")){
+            holder.image.setImageResource(R.drawable.ema);
+        }
+        else {
+            holder.image.setImageResource(R.drawable.others);
+
+        }
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
