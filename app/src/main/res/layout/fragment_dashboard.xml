@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     >
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -27,12 +27,12 @@
         android:id="@+id/editName"
         android:layout_width="351dp"
         android:layout_height="43dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -42,8 +42,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Full Name"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -53,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Age"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,10 +129,10 @@
         android:id="@+id/editAddress"
         android:layout_width="341dp"
         android:layout_height="40dp"
-        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Address"
         android:inputType="textPersonName"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,7 +144,7 @@
         android:layout_height="42dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
-        android:background="#536DFE"
+        android:background="@drawable/rounded_button"
         android:text="Save"
         android:textColor="#F8F5FC"
         app:layout_constraintStart_toStartOf="parent"

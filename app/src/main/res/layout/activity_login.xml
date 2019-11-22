@@ -28,6 +28,7 @@
         android:layout_height="42dp"
         android:layout_marginTop="80dp"
         android:text="Username"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,6 +41,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="28dp"
         android:text="Password"
+        android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -47,12 +49,12 @@
         android:id="@+id/editUsername"
         android:layout_width="205dp"
         android:layout_height="42dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="72dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -74,7 +76,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="48dp"
-        android:background="#536DFE"
+        android:background="@drawable/rounded_button"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPassword"
